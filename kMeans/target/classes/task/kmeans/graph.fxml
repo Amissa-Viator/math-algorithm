@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BubbleChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.ScatterChart?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="task.kmeans.ChartController">
+   <children>
+      <ScatterChart fx:id="chartOfClusters" layoutX="14.0" layoutY="26.0" prefHeight="444.0" prefWidth="574.0">
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </ScatterChart>
+      <Label layoutX="694.0" layoutY="37.0" text="Data">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+       <Label fx:id="centroidsLabel" layoutX="625.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0"/>
+       <Label fx:id="sumOfDistanceLabel" layoutX="620.0" layoutY="257.0" prefHeight="17.0" prefWidth="168.0"/>
+   </children>
+</Pane>
