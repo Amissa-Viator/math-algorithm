@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="algorithm.kmedoids.FormController">
+   <children>
+      <Label layoutX="168.0" layoutY="35.0" text="Fill in the data form" textFill="#06066e">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="selectFilePath" layoutX="153.0" layoutY="111.0" prefHeight="31.0" prefWidth="224.0" promptText="Select Excel file" editable="false" style="-fx-border-color: #06066e; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="clustersFld" layoutX="153.0" layoutY="169.0" prefHeight="31.0" prefWidth="224.0" promptText="Number of clusters" style="-fx-background-color: transparent; -fx-border-color: #041074; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="sendBtn" layoutX="183.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleGetInfo" prefHeight="31.0" prefWidth="156.0" style="-fx-background-color: #041074; -fx-background-radius: 10px; -fx-cursor: pointer;" text="Send" textFill="#f2f3f7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="EuclideanBtn" layoutX="193.0" layoutY="236.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="156.0" text="Euclidean metric">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="ManhattanBtn" layoutX="193.0" layoutY="278.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="186.0" text="Manhattan distance">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <FontAwesomeIcon fx:id="selectFileIcon" fill="#041074" glyphName="FILE" layoutX="393.0" layoutY="133.0" size="23" onMouseClicked="#handleOpenFile" />
+   </children>
+</Pane>
