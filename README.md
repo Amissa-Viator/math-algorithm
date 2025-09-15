@@ -13,7 +13,7 @@ The "perfect_numbers" project calculate as many perfect numbers as the user ente
 
 --------------------------------------------------------------------
 
-The project “k-means” implements the k-means clustering algorithm accordingly. The program requires Excel file with data, the desired number of clusters and a choice of metric (either Euclidean or Manhattan). If the input is valid, then scene changes and displays an animation of the clustering process. Below is the example of one clustering run:
+The project “kMeans” implements the k-means clustering algorithm accordingly. The program requires Excel file with data, the desired number of clusters and a choice of metric (either Euclidean or Manhattan). If the input is valid, then scene changes and displays an animation of the clustering process. Below is the example of one clustering run:
 
 <img width="940" height="568" alt="image" src="https://github.com/user-attachments/assets/5c783fb0-1abf-4484-b8d1-49927d85e304" />
 
