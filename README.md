@@ -18,3 +18,15 @@ The project “kMeans” implements the k-means clustering algorithm accordingly
 <img width="940" height="568" alt="image" src="https://github.com/user-attachments/assets/5c783fb0-1abf-4484-b8d1-49927d85e304" />
 
 --------------------------------------------------------------------
+
+The project “kMedoids” implements the k-medoids clustering algorithm. The program requires Excel file with data, the desired number of clusters and a choice of metric (either Euclidean or Manhattan). If the input is valid, then scene changes and displays an animation of the clustering process. Below is the example of one clustering run:
+
+<img width="940" height="567" alt="image" src="https://github.com/user-attachments/assets/df9beadd-c96c-494d-a319-49da9598e673" />
+
+Note: before displaying an animation of the clustering process, columns need to be chosen to be showed.
+
+--------------------------------------------------------------------
+
+The project “Apriori” implements the Apriori algorithm. The program requires the maximum number of products allowed in a single transaction (note: a number between one and entered maximum will be granted), the minimal support, and the minimum confidence. If the input is valid, then Excel file with the results will be created, a success message window will appear, and the frequent sets will be displayed in the console.
+
+--------------------------------------------------------------------
